@@ -85,7 +85,25 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
-  }
+  },
+  {
+    title: 'Arr, Pirate Ipsum',
+    date: 'Sept 4th, 2019',
+    firstParagraph: `Topmast belaying pin ballast jury mast doubloon grog no prey, no pay loot cackle fruit man-of-war line topsail lanyard brig keel belay take a caulk scuppers port dance the hempen jig boatswain splice the main brace Brethren of the Coast walk the plank haul wind interloper prow. Yawl ye lee topgallant coffer skysail Sink me Yellow Jack line wench prow hempen halter Arr spike tack haul wind case shot marooned long clothes flogging Chain Shot interloper Brethren of the Coast knave yo-ho-ho careen blow the man down. Weigh anchor crack Jennys tea cup Corsair furl galleon grog blossom crow's nest bilge water black spot jib starboard hempen halter yo-ho-ho warp jury mast draught Buccaneer grapple deadlights schooner capstan hornswaggle pillage scurvy provost cable mizzen. Walk the plank take a caulk parley gally scourge of the seven seas hempen halter schooner holystone parrel prow scallywag barkadeer blow the man down Davy Jones' Locker scuppers ye rum salmagundi gabion clap of thunder heave to piracy haul wind come about keel Pieces of Eight snow. Jolly Roger to go on account square-rigged capstan hulk swing the lead long clothes pressgang walk the plank careen lanyard marooned keel topgallant sutler smartly lad bilged on her anchor cog Cat o'nine tails quarterdeck keelhaul jib parrel starboard crimp transom.`,
+
+    secondParagraph: `Shrouds chase guns handsomely mizzen dead men tell no tales schooner Sea Legs grog fore boom measured fer yer chains fire in the hole bilged on her anchor hornswaggle loaded to the gunwalls square-rigged reef sails gally Blimey killick lugsail long clothes knave scallywag spirits Sink me sutler. Lugger sloop come about clap of thunder chase guns cog scallywag knave Corsair tackle clipper port stern Jack Ketch Gold Road Sail ho trysail run a rig jack lee heave to Barbary Coast Jack Tar grog take a caulk coxswain topgallant. Reef sails bilged on her anchor Spanish Main coffer rum lateen sail spike hail-shot Sail ho line Nelsons folly holystone clipper draft gaff barque gun boom knave belay scourge of the seven seas piracy starboard scallywag Brethren of the Coast parley me. Scurvy ballast Gold Road spike broadside draught list reef sails red ensign yard belaying pin capstan careen topmast bring a spring upon her cable boom doubloon fathom holystone provost squiffy gabion Spanish Main main sheet brig fore sheet. Case shot hulk crack Jennys tea cup clipper bucko Plate Fleet pressgang nipper pillage ho Letter of Marque furl chase guns lugger scuttle holystone ballast sloop barque Brethren of the Coast wench schooner heave down nipperkin maroon Admiral of the Black Buccaneer.`,
+
+    thirdParagraph: `Fire in the hole long clothes topgallant piracy quarterdeck bring a spring upon her cable Barbary Coast overhaul mizzenmast yo-ho-ho parrel boom port Shiver me timbers grapple scourge of the seven seas yawl lee keel case shot schooner hempen halter boatswain code of conduct bowsprit scuppers gabion. Privateer wherry lanyard rope's end execution dock provost handsomely topsail skysail spyglass gun Jolly Roger gally cog take a caulk sloop draught killick belaying pin line cackle fruit code of conduct haul wind scuppers jolly boat Admiral of the Black loot. Pressgang Spanish Main man-of-war yawl keelhaul hempen halter to go on account bilge water case shot clipper gaff quarterdeck Corsair Pieces of Eight gunwalls jib Brethren of the Coast careen sutler brigantine heave to black spot wench gally pinnace long clothes Jack Ketch. Chandler Sink me to go on account crack Jennys tea cup driver draft bilged on her anchor lad black spot yardarm come about pressgang overhaul squiffy chantey log ho league main sheet gaff Davy Jones' Locker doubloon bilge water landlubber or just lubber me cable dance the hempen jig. Long clothes six pounders scourge of the seven seas hearties careen grog blossom Jolly Roger brig matey swing the lead landlubber or just lubber heave down dance the hempen jig gabion keelhaul belay wherry cog grapple topmast yo-ho-ho chandler lookout flogging jolly boat crimp broadside.`
+  },
+  {
+    title: 'Hipster',
+    date: 'June 8, 1989',
+    firstParagraph: `Slow-carb actually wolf, woke banh mi gastropub messenger bag letterpress distillery umami. Raclette franzen locavore blog leggings. Chartreuse flexitarian DIY bespoke sartorial, deep v air plant. Schlitz four dollar toast roof party, fashion axe echo park kogi next level tousled snackwave fingerstache taiyaki coloring book normcore. Cronut photo booth four loko craft beer. Thundercats twee adaptogen, blog gochujang plaid live-edge lyft.`,
+
+    secondParagraph: `Glossier pinterest readymade activated charcoal squid. Forage hella snackwave salvia. Kitsch etsy readymade polaroid pickled, lyft coloring book raclette. Keffiyeh asymmetrical iPhone waistcoat. Meggings pok pok wolf, brooklyn umami PBR&B hella authentic beard synth wayfarers cred. Schlitz la croix palo santo semiotics iceland scenester fam hexagon, viral glossier before they sold out.`,
+
+    thirdParagraph: `Banh mi normcore 8-bit, art party viral live-edge XOXO af taxidermy austin pour-over flexitarian. Marfa cray gastropub, austin everyday carry food truck hoodie ugh normcore air plant cronut. Try-hard iceland schlitz health goth, activated charcoal vaporware hoodie. Helvetica polaroid portland sustainable, cold-pressed wayfarers yuccie godard chicharrones put a bird on it swag pug truffaut cliche. Vape chillwave brooklyn ethical viral pinterest flannel. Health goth shaman bitters vice pok pok, chia disrupt deep v pop-up dreamcatcher.`
+  },
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
@@ -112,3 +130,49 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 
 */
+
+function createArticle(title, date, firstPara, secondPara, thirdPara) {
+  // define new elements
+  const article = document.createElement('div');
+  const heading = document.createElement('h2');
+  const datePara = document.createElement('p');
+  const paragraph1 = document.createElement('p');
+  const paragraph2 = document.createElement('p');
+  const paragraph3 = document.createElement('p');
+  const expand = document.createElement('span');
+
+  // structure
+  article.appendChild(heading);
+  article.appendChild(datePara);
+  article.appendChild(paragraph1);
+  article.appendChild(paragraph2);
+  article.appendChild(paragraph3);
+  article.appendChild(expand);
+
+  // set class
+  article.classList.add('article');
+  datePara.classList.add('date');
+  expand.classList.add('expandButton');
+  
+  // set content
+  heading.textContent = title;
+  datePara.textContent = date;
+  paragraph1.textContent = firstPara;
+  paragraph2.textContent = secondPara;
+  paragraph3.textContent = thirdPara;
+  expand.textContent = "expand";
+
+  expand.addEventListener('click', () => {
+    article.classList.toggle('article-open');
+  })
+
+
+  return article;
+}
+window.addEventListener("load", () => {
+  creator = document.querySelector(".articles");
+  data.map(data => {
+  creator.appendChild(createArticle(data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph))
+  });
+
+})
